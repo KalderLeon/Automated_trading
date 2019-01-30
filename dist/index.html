@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <!-- Блок превью -->
+    <header>
+        <div class="preview-block">
+            <div class="container">
+                <div class="container__preview-title">
+                    <h1 class="mob-h1">simple, fast, profitable</h1>
+                    <h2 class="mob-h2">BOT FOR AUTOMATED TRADING IN THE CRYPTOMARKETS</h2>
+                </div>
+                <div class="container__button">
+                    <button id="signInBtn" type="button" value="">use it</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Модальное окно Sign in-->
+    <section>
+        <div id="modalSignIn" class="modal">
+            <div class="modal__content">
+                <span data-fancybox-close class="close">&times;</span>
+                <p>Sign In</p>
+                <div class="content-describe">Not registered?
+                    <a id="signUpurl" href="#">Sign Up!</a>
+                </div>
+                <form action="">
+                    <div class="form-content">
+                        <div class="inputWithIcon">
+                            <label>E-mail</label>
+                            <input type="text" placeholder="E-mail" pattern="example@e-mail.com">
+                            <i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                        <div class="inputPassword">
+                            <label for="control-color" class="passw-label">Password</label>
+                            <input id="control-color" type="password" placeholder="Password">
+                            <i class="fas fa-unlock-alt fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                        <div class="form-button">
+                            <input type="submit" value="SIGN IN">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--Модальное окно Sign Up-->
+    <section>
+        <div id="modalSignUp" class="modalUp" data-fancybox>
+            <div class="modal__content">
+                <span data-fancybox-close class="close">&times;</span>
+                <p>Sign Up</p>
+                <div class="content-describe">Already registered?
+                    <a id='back-sihnIn' href="#">Sign In!</a>
+                </div>
+                <form action="">
+                    <div class="form-content">
+                        <div class="inputWithIcon">
+                            <label>E-mail</label>
+                            <input type="text" placeholder="E-mail" pattern="example@e-mail.com">
+                            <i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                        <div class="inputUser">
+                            <label for="user" class="user-label">Username</label>
+                            <input type="text" placeholder="User">
+                            <i class="fas fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                        <div class="inputPassword">
+                            <label for="password" class="passw-label">Password</label>
+                            <input type="password" placeholder="Password">
+                            <i class="fas fa-unlock-alt fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                        <div class="form-button">
+                            <input type="submit" value="SIGN UP">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Блок Make trading -->
+    <main>
+        <div class="make-trading-blog section">
+            <div class="container">
+                <div class="container__title">
+                    <h2>make trading <span>simple</span></h2>
+                    <div class="title__img">
+                        <img src="img/rectangle-2.png" alt="">
+                        <div class="ecllipse-img"></div>
+                    </div>
+                </div>
+
+                <div class="make-out-grid">
+                    <div class="trade-item">
+                        <div class="item-image-icon">
+                            <div class="image-icon">
+                                <img src="img/icon.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Unlimited bots</h3>
+                    </div>
+                    <div class="trade-item">
+                        <div class="item-image-icon">
+                            <div class="image-icon">
+                                <img src="img/icon-2.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Unlimited pairs</h3>
+                    </div>
+                    <!-- next-item -->
+                    <div class="trade-item">
+                        <div class="item-image-icon">
+                            <div class="image-icon">
+                                <img src="img/icon-3.png" alt="">
+                            </div>
+                        </div>
+                        <h3>Flexlible settings</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок Slider -->
+        <div class="our-slider-block section">
+            <div class="container">
+                <div class="container__slider">
+                    <div class="slide">
+                        <div class="slide__content">
+                            <h2 class="slide__title">Work in cloud</h2>
+                            <p class="slide__description slide-desc">
+                                works in the cloud and does not require installations and additional costs
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide__content">
+                            <h2 class="slide__title">Simple web interface</h2>
+                            <p class="slide__description slide-desc">
+                                adaptive and convenient interface with telegram notification
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide__content">
+                            <h2 class="slide__title">Online settings update</h2>
+                            <p class="slide__description slide-desc">
+                                automatic application of settings without stopping bots
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок Our packages -->
+        <div class="our-packages-block section">
+            <div class="container">
+                <div class="container__title">
+                    <h2>Our <span>packages</span></h2>
+                    <div class="title__img">
+                        <img src="img/rectangle-2.png" alt="">
+                        <div class="ecllipse-img"></div>
+                    </div>
+                </div>
+                <div class="container__grid">
+                    <div class="grid__item">
+                        <h3 class="items__title">Annual</h3>
+                        <div class="items__price">
+                            <p>0,07 BTC</p>
+                        </div>
+                        <div class="items__button">
+                            <button id="signIn-2" type="button" value="">use it</button>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <h3 class="items__title">Half-annual</h3>
+                        <div class="items__price">
+                            <p>0,035 BTC</p>
+                        </div>
+                        <div class="items__button">
+                            <button id="signIn-3" type="button" value="">use it</button>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <h3 class="items__title">3 day full test drive</h3>
+                        <div class="items__price">
+                            <p>FREE</p>
+                        </div>
+                        <div class="items__button">
+                            <button id="signIn-4" type="submit" value="">use it</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Здесь блок с our developing plans-->
+        <div class="our-developing-block section" id="devPlans">
+            <div class="container__title">
+                <h2>Our <span>developing plans</span></h2>
+                <div class="title__img">
+                    <img src="img/rectangle-2.png" alt="">
+                    <div class="ecllipse-img"></div>
+                </div>
+            </div>
+            <div class="steps">
+                <div class="container">
+                    <ul class="steps__items">
+                        <li class="steps__item"><i class="steps__item__icon"></i>Create your own or use existing trading bots</li>
+                        <li class="steps__item"><i class="steps__item__icon"></i>Copy the actions of other traders</li>
+                        <li class="steps__item"><i class="steps__item__icon"></i>Algorithm testing platform</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--Блок слайдер платформ-->
+        <div class="trading-platform-block section">
+            <div class="container">
+                <div class="container-platform-slider">
+                    <div class="container-platform-slider__slide">
+                        <div class="slide-item">
+                            <div class="slide-item__content">
+                                <img src="img/poloniex-logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-item__content">
+                                <img src="img/wex-min.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-item__content">
+                                <img src="img/exmo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-item__content">
+                                <img src="img/bittrex.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-item__content">
+                                <img src="img/bitfinex.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-item__content">
+                                <img src="img/cexiologo-copy.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-item__content">
+                                <img src="img/yobit-copy.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-item__content">
+                                <img src="img/binance-copy.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--First profit block-->
+        <div class="our-first-profit-block section">
+            <div class="container">
+                <div class="container__first-profit-title">
+                    <h1 class="h1-earn-title">Earn your first profit in 10 minutes!</h1>
+                    <h2 class="h2-earn-title">All new users receive a 3 day trial. No payment required</h2>
+                </div>
+                <div class="container__first-profit-button">
+                    <button id="secondBtn" type="button" value="" onclick="openWin();">use it</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-block">
+            <div class="container">
+                <div class="footer-content">
+                    <div id="logo-img" class="logo">
+                        <img src="img/footer-logo.png" alt="">
+                    </div>
+                    <div class="copy-and-social-button">
+                        <p>2018 All Right Recerved</p>
+                        <div class="social-buttons">
+                            <a href="#"><i class="fab fa-slack-hash"></i></a>
+                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="js/libs.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html
